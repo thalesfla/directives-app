@@ -5,11 +5,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { FormsModule } from '@angular/forms';
-import { MatSelectModule, MatRadioModule, MatCardModule,MatCheckboxModule,MatInputModule } from '@angular/material';
+import { MatSelectModule,MatIconModule, MatRadioModule, MatCardModule,MatCheckboxModule,MatInputModule,MatListModule, MatDividerModule, MatButtonModule } from '@angular/material';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { SubNgIfComponent } from './ng-if/sub-ng-if/sub-ng-if.component';
 import { NgForComponent } from './ng-for/ng-for.component';
+import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,9 @@ import { NgForComponent } from './ng-for/ng-for.component';
     NgClassComponent,
     NgIfComponent,
     SubNgIfComponent,
-    NgForComponent
+    NgForComponent,
+    NgForFormComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -28,6 +31,10 @@ import { NgForComponent } from './ng-for/ng-for.component';
     MatCardModule,
     MatCheckboxModule,
     MatInputModule,
+    MatListModule,
+    MatIconModule,
+    MatDividerModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
