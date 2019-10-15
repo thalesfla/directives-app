@@ -50,4 +50,10 @@ export class NgForFormComponent implements OnInit {
     this.age = 0;
   }
 
+
+  delete(i: number) {
+    //remover o elemento especifico no array clients
+    this.clients.splice(i, 1);
+  }
+
 }
