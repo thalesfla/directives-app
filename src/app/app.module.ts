@@ -24,6 +24,8 @@ import { NgForComponent } from './ng-for/ng-for.component';
 import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
 import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 import { NgTemplateComponent } from './ng-template/ng-template.component';
+import { NgContainerComponent } from './ng-container/ng-container.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +37,8 @@ import { NgTemplateComponent } from './ng-template/ng-template.component';
     NgForFormComponent,
     NgSwitchComponent,
     NgTemplateComponent,
+    NgContainerComponent,
+    NgContentComponent,
 
   ],
   imports: [

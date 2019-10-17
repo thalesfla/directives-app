@@ -5,7 +5,7 @@
         <p>Before ngTemplate</p>
         <h1 *ngIf="enable else  mytemplate">Enabled</h1>
         <ng-template #mytemplate>
-
+            <h1>Inside Template</h1>
         </ng-template>
     </mat-card-content>
 </mat-card>
